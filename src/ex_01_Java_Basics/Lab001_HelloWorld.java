@@ -4,7 +4,10 @@ public class Lab001_HelloWorld
 {
     public static void main(String[] args)
     {
-        System.out.println("Hi");
+    int marks = 100;
+    String result = (marks >= 40) ? "Pass" : "Fail";
+
+    System.out.println(result);
     }
 
 }
